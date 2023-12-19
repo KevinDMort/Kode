@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    
+    .content
+        h1= title
+            each item in List
+                .starwars
+                    p= item.title
+                    p= item.director
+                    p= item.release_date

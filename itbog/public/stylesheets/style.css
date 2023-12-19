@@ -1,0 +1,123 @@
+body {
+  padding: 50px;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.navbuttons {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.navbuttons ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbuttons ul li {
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+}
+.navbuttons ul li button {
+  font-size: 1.4vw;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbuttons ul li button:hover {
+  transition: 1s;
+  background-color: #fff200;
+}
+
+.content{
+  margin: 0 auto;
+  text-align: center;
+}
+.info {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 10px;
+}
+h1 {
+  font-size: 3em;
+  color: #ff0000;
+  text-shadow: 2px 2px 4px #000000;
+}
+h2 {
+  font-size: 2em;
+  color: #3b3737;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #e6e6e6;
+}
+form {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+button[type="submit"]:hover {
+  background-color: #fff200;
+}
+.starwars {
+  font-family: "Star Jedi", "Arial", sans-serif;
+  font-size: 13px;
+  color: yellow;
+  text-shadow: 2px 2px 4px black;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: black;
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+}
+

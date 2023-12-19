@@ -1,0 +1,41 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    nav
+      div.navbuttons
+        ul
+          li
+              button(onclick="rdIndex()") Forside
+                script.
+                  function rdIndex() {
+                    window.location.href = '/';
+                  }
+              button(onclick="rdSale()") Sælg en Bog
+                script.
+                  function rdSale() {
+                    window.location.href = '/opretwebbog';
+                  }
+              button(onclick="rdComputersprog()") Computersprog
+              script.
+                function rdComputersprog() {
+                  window.location.href = '/computersprog';
+                }
+              button(onclick="rdComputersprog1()") Computersprog1
+                script.
+                  function rdComputersprog1() {
+                    window.location.href = '/computersprog1';
+                  }
+              button(onclick="rdWebapplikationer()") Webapplikationer
+              script.
+                function rdWebapplikationer() {
+                  window.location.href = '/webapplikationer';
+                }
+              button(onclick="rdWebapplikationerDB()") Webapplikationer Fra DB
+              script.
+                function rdWebapplikationerDB() {
+                  window.location.href = '/webapplikationer1';
+                }
+    block content

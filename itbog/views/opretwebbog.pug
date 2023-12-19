@@ -1,0 +1,18 @@
+extends layout
+block content
+    .content
+        h1 Sælg en bog
+        form(action="/opretwebbog", method="post" id="sendpakke")
+            label(for="Titel") Titel
+            input(type="text", id="Titel", name="Titel")
+            label(for="Forfatter") Forfatter
+            input(type="text", id="Forfatter", name="Forfatter")
+            label(for="Forlag") Forlag
+            input(type="text", id="Forlag", name="Forlag")
+            label(for="Udgave") Udgave
+            input(type="number", id="Udgave", name="Udgave")
+            label(for="Pris") Pris i DKK
+            input(type="number", id="Pris", name="Pris")
+            br
+            button(type="submit") Opret bog
+        
